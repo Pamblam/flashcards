@@ -4,8 +4,8 @@ const datasetsDir = 'datasets/';
 
 // Hardcoded dataset list for now (could be dynamic with backend or directory listing)
 const datasets = [
-	{ name: 'Part 1', file: 'part1.json' },
-	{ name: 'Part 2', file: 'part2.json' }
+	{ name: 'AWS Machine Learning Engineer - Part 1', file: 'aws-mle-part1.json' },
+	{ name: 'AWS Machine Learning Engineer - Part 2', file: 'aws-mle-part2.json' }
 ];
 
 let currentDataset = null;

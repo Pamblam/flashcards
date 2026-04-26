@@ -1,0 +1,110 @@
+[
+  {
+    "term": "Mean Squared Error (MSE)",
+    "description": "A risk function that measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value. It heavily penalizes larger errors due to the squaring operation."
+  },
+  {
+    "term": "R Squared (Coefficient of Determination)",
+    "description": "A statistical measure that represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model. It ranges from 0 to 1."
+  },
+  {
+    "term": "Concept drift",
+    "description": "A phenomenon where the statistical properties of the target variable, which the model is trying to predict, change over time in unforeseen ways, making the model's original logic less accurate."
+  },
+  {
+    "term": "SHAP values",
+    "description": "A game-theoretic approach used to explain the output of any machine learning model by connecting optimal credit allocation with local explanations, showing how much each feature contributed to a specific prediction."
+  },
+  {
+    "term": "Online vs Offline Datastore (s3 vs Dynamo)",
+    "description": "The distinction between a low-latency, high-throughput system used for real-time inference and a high-volume, cost-effective storage system used for historical batch processing and training."
+  },
+  {
+    "term": "Sagemaker jumpstart",
+    "description": "A machine learning hub that provides access to pre-trained, open-source models for common use cases, allowing users to quickly deploy and fine-tune popular architectures without starting from scratch."
+  },
+  {
+    "term": "Models vs algorithms",
+    "description": "The distinction between the mathematical procedure or set of rules used to find patterns, and the finalized representation containing learned parameters created after the training process is complete."
+  },
+  {
+    "term": "Foundation Models",
+    "description": "Large-scale artificial intelligence systems trained on vast amounts of data that can be adapted and fine-tuned to a wide range of downstream tasks, such as text generation or image synthesis."
+  },
+  {
+    "term": "Built in algorithms",
+    "description": "Highly optimized, pre-packaged implementations of common machine learning methods provided directly by the cloud platform for high-performance training and deployment."
+  },
+  {
+    "term": "Reinforcement learning",
+    "description": "An area of machine learning concerned with how intelligent agents ought to take actions in an environment to maximize the notion of cumulative reward through trial and error."
+  },
+  {
+    "term": "Supervised vs unsupervised learning",
+    "description": "The difference between training a model using a dataset that includes both inputs and the desired labels, versus finding hidden patterns or structures in a dataset that has no labels or targets."
+  },
+  {
+    "term": "Data Wrangler",
+    "description": "A visual tool within a cloud environment that simplifies the process of data preparation and feature engineering, providing a graphical interface to clean and transform data without writing code."
+  },
+  {
+    "term": "EMR Clusters",
+    "description": "Managed sets of EC2 instances that use framework like Spark or Hive to process and analyze vast amounts of data across a distributed environment before it is used for machine learning."
+  },
+  {
+    "term": "AutoML / Sagemaker Autopilot",
+    "description": "An automated process that inspects a raw dataset, selects the most relevant features, chooses the best mathematical procedure, and tunes the settings to find the highest-performing model automatically."
+  },
+  {
+    "term": "XGBoost",
+    "description": "An optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable. It is widely used for supervised learning on structured/tabular data."
+  },
+  {
+    "term": "Linear Learner",
+    "description": "A highly scalable supervised learning method used for solving both regression and classification problems by fitting a straight line or hyperplane to the data."
+  },
+  {
+    "term": "K-Means & Random Cut Forest (RCF)",
+    "description": "A combination of an unsupervised clustering method used for grouping similar data points and an unsupervised tree-based method used for detecting anomalies and outliers."
+  },
+  {
+    "term": "Factorization Machines (FM)",
+    "description": "A general-purpose supervised learning method that is particularly effective for high-dimensional sparse datasets, commonly used in recommendation engines to capture interactions between variables."
+  },
+  {
+    "term": "Latent Dirichlet Allocation (LDA)",
+    "description": "An unsupervised statistical model that allows sets of observations to be explained by unobserved groups; in machine learning, it is primarily used for discovering topics in a collection of text documents."
+  },
+  {
+    "term": "CNN/RNN",
+    "description": "Two types of deep learning architectures: one optimized for processing grid-like data such as images, and the other designed for sequential or time-series data like text or speech."
+  },
+  {
+    "term": "Hyperparameters",
+    "description": "External configurations set by the user before the training process begins that control how the learning process behaves, such as learning rate or the number of clusters."
+  },
+  {
+    "term": "Sagemaker automatic model tuning",
+    "description": "The service that automates the process of finding the optimal external configurations by running multiple training jobs with different values and measuring their performance."
+  },
+  {
+    "term": "Grid Search",
+    "description": "An optimization technique that exhaustively searches through a manually specified subset of the configuration space by trying every possible combination of provided values."
+  },
+  {
+    "term": "Random Search",
+    "description": "A tuning technique that samples values from a specified distribution for a fixed number of iterations, often finding better results faster than an exhaustive manual search."
+  },
+  {
+    "term": "Bayesian optimization",
+    "description": "A strategy for tuning that builds a probabilistic model of the objective function and uses it to select the most promising configurations to evaluate next based on previous results."
+  },
+  {
+    "term": "Hyperband",
+    "description": "A resource-efficient tuning strategy that uses early stopping to terminate poorly performing configurations quickly, allocating more resources to the most promising trials."
+  },
+  {
+    "term": "sagemaker canvas",
+    "description": "A visual, point-and-click interface that allows business analysts without machine learning experience to build models and generate accurate predictions from their data."
+  }
+]
