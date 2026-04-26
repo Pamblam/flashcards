@@ -1,0 +1,70 @@
+[
+  {
+    "term": "Regression vs. Classification",
+    "description": "Predicting continuous values is regression (e.g., house price, temperature). Predicting discrete categories is classification (e.g., 'spam' or 'not spam')."
+  },
+  {
+    "term": "Mean Absolute Error (MAE)",
+    "description": "Calculates the average of the absolute differences between predicted and actual values. Provides a straightforward measure of how much, on average, predictions deviate from the truth."
+  },
+  {
+    "term": "Accuracy",
+    "description": "The ratio of correctly predicted observations to the total observations in a classification model. While intuitive, it can be misleading if the dataset is highly imbalanced."
+  },
+  {
+    "term": "Precision",
+    "description": "The proportion of positive identifications that were actually correct. Calculated as True Positives divided by the sum of True Positives and False Positives, focusing on the cost of 'false alarms'."
+  },
+  {
+    "term": "Area Under the ROC Curve (AUC-ROC)",
+    "description": "Measures a binary classifier's ability to distinguish between classes across all possible thresholds. A higher AUC indicates better prediction of true positives while minimizing false positives."
+  },
+  {
+    "term": "Data Drift vs. Model Drift",
+    "description": "Data drift: statistical properties of input features change over time. Model drift (concept drift): relationship between input features and target variable changes, degrading predictive power."
+  },
+  {
+    "term": "Training-Serving Skew",
+    "description": "A discrepancy between model performance during training and in production, often caused by using different data pipelines or features at inference time than during training."
+  },
+  {
+    "term": "SageMaker Feature Store",
+    "description": "A repository to store, update, retrieve, and share machine learning features. Ensures consistency between training and real-time inference by providing a single source of truth for feature data."
+  },
+  {
+    "term": "SageMaker Model Monitor",
+    "description": "Automatically monitors machine learning models in production and alerts when deviations in model quality are detected. Can identify issues like data drift, concept drift, and changes in feature attribution."
+  },
+  {
+    "term": "SageMaker Clarify",
+    "description": "Detects potential bias in datasets and models, and provides model explainability. Helps developers understand how individual features contribute to a model's prediction using methods like SHAP values."
+  },
+  {
+    "term": "Amazon Bedrock",
+    "description": "A fully managed service making foundation models from leading AI startups and Amazon available via API. Allows building and scaling generative AI applications without managing infrastructure."
+  },
+  {
+    "term": "One Hot Encoding",
+    "description": "A preprocessing technique converting categorical variables into a binary vector representation. Each unique category becomes a new column with a 1 or 0, ensuring no numerical ranking between categories."
+  },
+  {
+    "term": "A Feature",
+    "description": "An individual measurable property or characteristic of a phenomenon being observed. In a dataset, features typically represent the columns (input variables) used by the model to make predictions."
+  },
+  {
+    "term": "Feature Engineering",
+    "description": "Using domain knowledge to select, modify, or create new variables from raw data to improve model performance. Includes tasks like scaling, encoding, and creating interaction terms."
+  },
+  {
+    "term": "Feature Store",
+    "description": "A centralized management layer for machine learning features supporting both batch and online applications. Helps teams share and reuse features across projects while maintaining data consistency."
+  },
+  {
+    "term": "Amazon Ground Truth",
+    "description": "A fully managed data labeling service to build highly accurate training datasets. Offers built-in labeling workflows and supports human labelers through vendors or private workforces."
+  },
+  {
+    "term": "MTurk / Mechanical Turk",
+    "description": "A crowdsourcing marketplace for outsourcing tasks to a distributed workforce. In ML, frequently used for manual data labeling, cleaning, and validation tasks."
+  }
+]
